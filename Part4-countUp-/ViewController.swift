@@ -23,3 +23,29 @@ final class ViewController: UIViewController {
         label.text = "0"
     }
 }
+
+
+
+// 改善点
+
+// 直接文字列を書かない
+//@IBAction private func clear(_ sender: Any) {
+//    count = 0
+//    label.text = String(count)
+//}
+
+// 解答例
+
+//@IBAction private func countUp(_ sender: Any) {
+//    count += 1
+//    updateCurrentValueLabel()
+//}
+//
+//@IBAction private func countClear(_ sender: Any) {
+//    count = 0
+//    updateCurrentValueLabel()
+//}
+//
+//func updateCurrentValueLabel() {
+//    label.text = "\(count)"
+//}
